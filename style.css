@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    position: relative;
+}
+
+.start-btn, .white-btn, .yes-btn, .no-btn {
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.start-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.white-btn {
+    background-color: white;
+    color: black;
+}
+
+.yes-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.no-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.temperature {
+    font-size: 2em;
+    text-align: center;
+}
